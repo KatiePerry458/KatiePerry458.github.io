@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Katelynn Perry Assignment Portal</title>
+  <meta name="description" content="CIT 230: Assignment Portal">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+      <img src="images/katiepic.jpg" alt="This is me!" style="width:128px;height:220px;" >
+
+    <h1>Katelynn Perry</h1>
+      <h2>CIT 230: Assignment Portal</h2>
+          
+      <hr>
+  </header>
+
+  <nav>
+    <ul>
+      <li> Lesson 02: <a href="lesson2"> Assignment Link </a> </li>
+      <li> Lesson 03: <a href="lesson3"> Assignment Link </a> </li>
+      <li> Lesson 04: <a href="lesson4"> Link </a>  | <a href="lesson4"> Link </a>  </li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      
+
+    </section>
+  </main>
+  <footer>
+    &copy; 2019 | Katelynn Perry | Washington |  <a href="https://www.byui.edu/online"> BYU-I Online Learning </a> 
+  <section> Today's date: <span id= "currentdate"></span> </section>
+  </footer>
+
+<script>
+  const options ={weekday: "long", day: "numeric", month: "long", year: "numeric"};
+  document.getElementById("currentdate").textContent - new Date().toLocaleDateString("en US", options);
+  </script>
+
+</body>
+
+
+
+
+</html>
