@@ -4,11 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Katelynn Perry Assignment Portal</title>
+
   <meta name="description" content="CIT 230: Assignment Portal">
-  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="js/script.js" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karma|Pacifico|Montserrat&display=swap" rel="stylesheet">
+ 
 
 </head>
+
 <body>
   <header>
       <img src="images/katiepic.jpg" alt="This is me!" style="width:128px;height:220px;" >
@@ -16,12 +24,11 @@
     <h1>Katelynn Perry</h1>
       <h2>CIT 230: Assignment Portal</h2>
           
-      <hr>
   </header>
 
   <nav>
     <ul>
-      <li> Lesson 02: <a href="lesson2"> Assignment Link </a> </li>
+      <li> Lesson 02: <a href="lesson2/design-principles.html"> Design Principles Doc </a> </li>
       <li> Lesson 03: <a href="lesson3"> Assignment Link </a> </li>
       <li> Lesson 04: <a href="lesson4"> Link </a>  | <a href="lesson4"> Link </a>  </li>
     </ul>
@@ -32,11 +39,12 @@
   <section> Today's date: <span id= "currentdate"></span> </section>
   </footer>
   
-  <script>
-    const options ={weekday: "long", day: "numeric", month: "long", year: "numeric"};
-    document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
-    console.log(new Date().toLocaleDateString("en-US", options));
-    </script>
+  <script src="script.js">
+      const options ={weekday: "long", day: "numeric", month: "long", year: "numeric"};
+  
+      </script>
+
+
 
 </body>
 
