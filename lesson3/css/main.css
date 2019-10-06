@@ -96,13 +96,10 @@ footer {
 			nav li {display: inline-block;}
 	
 
-
 			nav li {float:; margin-right:15px;}
 			main {clear:both;}
-	*/
 
 
-	
 	nav a {
 		font-size: 1rem;
 	}
@@ -114,11 +111,11 @@ footer {
 	}
 	main picture {
 		display: block;
-	}
+    border: 3px solid #E9c46A;
+  }
 	main picture img {
 		width: 100%;
 		height: auto;
-		border: 1px solid #bbb;
 	}
 }
 
