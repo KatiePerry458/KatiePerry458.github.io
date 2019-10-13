@@ -30,19 +30,25 @@
     <ul>
       <li> Design Principles: <a href="lesson2/design-principles.html"> Design Principles Document </a> </li>
       <li> Lesson 03: <a href="lesson3/index.html"> Website Planning Document </a> </li>
-      <li> Lesson 04: <a href="lesson4"> Link </a>  | <a href="lesson4"> Link </a>  </li>
+      <li> Lesson 04: <a href="lesson4/index.html"> Weather Website </a> </li>
     </ul>
   </nav>
   
   <footer>
+
+    
     &copy; 2019 | Katelynn Perry | Washington |  <a href="https://www.byui.edu/online"> BYU-I Online Learning </a> 
-  <section> Today's date: <span id= "currentdate"></span> </section>
+  
   </footer>
   
-  <script src="script.js">
-      const options ={weekday: "long", day: "numeric", month: "long", year: "numeric"};
-  
-      </script>
+  <p id="datestamp">
+
+  </p>
+
+  <script>
+  var d = new Date();
+  document.getElementById("datestamp").innerHTML = d;
+  </script>
 
 
 
