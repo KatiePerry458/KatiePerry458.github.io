@@ -24,6 +24,7 @@
 
   nav ul li{
     float:center;
+    padding: .6rem;
   }
 
   nav ul.hide{

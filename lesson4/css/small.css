@@ -74,6 +74,8 @@ nav a:hover {
 	color: #36454f;
 }
 
+
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -113,9 +115,6 @@ footer article{
 
 nav ul.hide{
 	display: none;
-
-
-
 }
 
 

@@ -3,4 +3,15 @@
 
   nav ul li{padding: .6rem 1rem;}
 
+header{
+  font-size: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+header img{
+  display: inline;
+}
+
   }
