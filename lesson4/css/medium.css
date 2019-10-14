@@ -1,5 +1,5 @@
 /* Medium View */
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35rem) {
   
   h1{
     font-size: 3rem;
@@ -16,8 +16,18 @@
   justify-content: space-evenly;
   }
 
+  nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+  }
+
   nav ul li{
     float:center;
+  }
+
+  nav ul.hide{
+    display: 100%;
   }
 
   nav ul li a {

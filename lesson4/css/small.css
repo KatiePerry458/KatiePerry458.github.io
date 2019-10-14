@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 
 H1 {
 	font-family: 'Fjalla One', sans-serif;
@@ -45,7 +45,7 @@ header img{
 }
 
 nav button {
-	margin: .25 rem 2%;
+	margin: 2%;
 	background-color: transparent;
 	border: none;
 	font-size: 1.6rem;
@@ -109,35 +109,15 @@ footer article{
 }
 
 
-/* Small View */
-@media only screen and (min-width: 37.5em) {
-	
-			nav {text-align: center;}
-			nav li {display: inline-block;}
-	
+@media only screen and (max-width: 34rem){
 
-			nav li {float:; margin-right:15px;}
-			main {clear:both;}
+nav ul.hide{
+	display: none;
 
 
-	nav a {
-		font-size: 1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
 
-	}
-	main picture {
-		display: block;
-    border: 3px solid #E9c46A;
-  }
-	main picture img {
-		width: 100%;
-		height: auto;
-	}
 }
 
 
-	}
+
 }

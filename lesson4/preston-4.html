@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-<html lang "en">
+<html lang= "en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta name="description" content="Week 4 Assignment">
 <title>Preston Town Page</title>
 </head>
 
@@ -19,8 +23,9 @@
 </header>
 
 <div id= dropdown>
+
 <nav>
-  <button onclick="toggleMenu()"> &Congruent;</button>		
+  <button onclick="toggleMenu()"> &#9776; </button>		
   <ul id= "navigation" class= "hide">
 			<li><a href="preston-4.html" class="active">Home</a></li>
 			<li><a href="#">Preston</a></li>
@@ -30,6 +35,7 @@
       <li><a href="#">Gallery</a></li>
 	</ul>
 </nav>
+
 </div>
 
 
@@ -61,11 +67,11 @@
 
 <article>	&copy; 2019 &nbsp; Katie Perry &nbsp; | <a href="#">Terms of Use</a>&nbsp; 
 
-  <p id="datestamp"></p>
+  <p id="dateStamp"></p>
 
   <script>
   var d = new Date();
-  document.getElementById("datestamp").innerHTML = d;
+  document.getElementById("dateStamp").innerHTML = d;
   </script>
   
 </article>
