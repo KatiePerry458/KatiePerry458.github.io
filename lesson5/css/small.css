@@ -1,7 +1,9 @@
 
 
-H1 {
+h1 {
 	font-family: 'Fjalla One', sans-serif;
+	color: #fffff;
+	font-size: 2rem;
 }
 body{
 	width: 100%;
@@ -26,9 +28,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
 
 }
-h1 {
-	font-size: 2rem;
-}
+
 h2 {
 	font-family: 'Fjalla One', sans-serif;
 }
