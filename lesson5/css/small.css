@@ -4,7 +4,7 @@ header img{
 }
 
 header .banner{
-	background-color: yellow;
+	background-color:#ffcc00;
 }
 header h1 {
 	font-family: 'Fjalla One', sans-serif;
@@ -90,7 +90,7 @@ nav a:hover {
 	color: #36454f;
 }
 
-nav a:active{
+nav a .active {
 	background-color: #e76f51;
 	color: #36454f;
 }
