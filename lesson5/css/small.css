@@ -24,13 +24,19 @@ body{
   background-color: #ffffff;
 }
 
-header, footer {
+header {
 	background-color: #264653;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+}
+
+footer{
+	background-color: #2a9daf;
+	padding: 25px;
+	text-align: center;
 }
 
 header,
@@ -80,14 +86,22 @@ nav a:hover {
 	color: #36454f;
 }
 
+nav a:active{
+	background-color: #e76f51;
+	color: #36454f;
+}
+
 .weatherSummary {
 	margin: 10px auto;
 	position: relative;
 }
 
+
+
+
 .info {
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	left: 20px;
 	background: #ffffff;
 	padding: .5rem;
@@ -105,19 +119,18 @@ main article ul {
 	list-style-type: none;
 }
 
-main article img {
-	float: right;
-	padding-left: 10px;
-	width: 200px;
+
+.textbox{
+	padding: 20px;
 }
-
-
 article h1{
 text-align: left;
 }
 
 article ul img{
 padding: 10px;
+height: 60px;
+width: 60px;
 }
 
 
@@ -131,7 +144,9 @@ main article {
 	border: 3px solid #E9c46A;
 	padding: 0 1rem;
 	background-color: #eee;
+
 }
+
 
 main img{
 	width: 100%;
@@ -143,8 +158,7 @@ footer {
 }
 
 
-footer article{
-	padding: 0 1rem;
+footer .resources{
 	text-align: center;
 }
 
@@ -156,10 +170,19 @@ footer article{
 
 @media only screen and (max-width: 40rem){
 
+
 nav ul.hide{
 	display: none;
 }
-article ul.hide {
-	display:none;
+
+article.hide{
+	display: none;
 }
+
+.floatPic{
+	width: 400px;
+	position: relative;
+	left: 10px;
+	box-shadow: 0 0 10px #111;
+
 }

@@ -41,3 +41,15 @@
 		grid-template-columns: 1fr 1fr;
   }
 }
+
+article .inline{
+  display:none ;
+}
+
+.floatPic{
+	width: 15rem;
+	position: absolute;
+	right: 40px;
+	box-shadow: 0 0 10px #111;
+
+}
