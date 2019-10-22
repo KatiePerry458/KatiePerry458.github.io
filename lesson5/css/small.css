@@ -2,6 +2,10 @@ header img{
 	height:3rem;
 
 }
+
+header .banner{
+	background-color: yellow;
+}
 header h1 {
 	font-family: 'Fjalla One', sans-serif;
 	color: #ffffff;
@@ -119,7 +123,6 @@ main article ul {
 	list-style-type: none;
 }
 
-
 .textbox{
 	padding: 20px;
 }
@@ -133,7 +136,6 @@ height: 60px;
 width: 60px;
 }
 
-
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -144,9 +146,7 @@ main article {
 	border: 3px solid #E9c46A;
 	padding: 0 1rem;
 	background-color: #eee;
-
 }
-
 
 main img{
 	width: 100%;
@@ -167,7 +167,6 @@ footer .resources{
 }
 
 
-
 @media only screen and (max-width: 40rem){
 
 
@@ -185,4 +184,12 @@ article.hide{
 	left: 10px;
 	box-shadow: 0 0 10px #111;
 
+}
+
+ footer .hide{
+	display: none;
+}
+
+header h2.hide{
+	display: none;
 }
