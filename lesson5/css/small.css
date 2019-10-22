@@ -1,10 +1,23 @@
+header img{
+	height:3rem;
 
-
-h1 {
-	font-family: 'Fjalla One', sans-serif;
-	color: #fffff;
-	font-size: 2rem;
 }
+header h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #ffffff;
+	font-size: 2rem;
+	float: left;
+	position: center;
+	
+}
+
+header h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: .8rem;
+text-align: center;
+}
+
+
 body{
 	width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -24,24 +37,17 @@ header,
 nav,
 main,
 footer {
-  margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-
 }
 
-h2 {
-	font-family: 'Fjalla One', sans-serif;
+h1 {
+	font-size: 1rem;
+	text-align: center;
 }
 
 nav {
 	background-color: #2a9daf;
 	text-align: center;
-
-}
-
-header img{
-	width: 100px;
-	height: auto;
 }
 
 nav button {
@@ -67,13 +73,52 @@ nav li a {
 	padding: 0.8rem 2%;
 	text-decoration: none;
 	font-size: 0.95rem;
-	border-top: 1px solid rgba(0,0,0,0.3);
 }
+
 nav a:hover {
 	background-color: #e76f51;
 	color: #36454f;
 }
 
+.weatherSummary {
+	margin: 10px auto;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: #ffffff;
+	padding: .5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .75;
+}
+
+main article ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	color: #111111;
+	text-align: center;
+	padding: 1rem 2%;
+	font-size: 0.95rem;
+	list-style-type: none;
+}
+
+main article img {
+	float: right;
+	padding-left: 10px;
+	width: 200px;
+}
+
+
+article h1{
+text-align: left;
+}
+
+article ul img{
+padding: 10px;
+}
 
 
 main {
@@ -87,11 +132,8 @@ main article {
 	padding: 0 1rem;
 	background-color: #eee;
 }
-main picture {
-  margin: 0.5rem;
-  border: 3px solid #E9c46A;
-}
-main picture img{
+
+main img{
 	width: 100%;
 }
 
@@ -112,12 +154,12 @@ footer article{
 
 
 
-@media only screen and (max-width: 34rem){
+@media only screen and (max-width: 40rem){
 
 nav ul.hide{
 	display: none;
 }
-
-
-
+article ul.hide {
+	display:none;
+}
 }

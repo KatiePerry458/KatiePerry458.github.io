@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <meta name="description" content="Week 5 Assignment">
   
-<title>Preston Town Page</title>
+<title>Preston Weather Report</title>
 </head>
 
 <link rel="shortcut icon" href="images/favicon.ico">
@@ -20,10 +20,10 @@
 
 
 <header>
-  <h1>The Town of Preston</h1>
-  <img src="images/Logo-01.jpg" alt="Weather Logo">
-  <p>"Life isn't about waiting for the storm to pass, 
-    <br>it's about learning to dance in the rain"</p>
+  <h1><img src="images/PartlyCloudyIcon.png" alt="Weather Logo">
+  Preston Weather Report</h1>
+  <h2>"Life isn't about waiting for the storm to pass, 
+    <br>it's about learning to dance in the rain"</h2>
 
 </header>
 
@@ -39,22 +39,48 @@
 	</ul>
 </nav>
 
-
-
-
 <main>
+  <h1>Preston Idaho</h1>
+  <div class="weatherSummary">
+      <img src="images/StockPhoto.jpeg" alt="Preston Pic">
+      
+      <section class="info">
+            <p>WEATHER SUMMARY</p>
+             <p>Currently: <span id="currently">Sunny</span</p>
+             <p>High: <span id="high">42&#176</span></p>
+             <p>Low: <span id="low"></span>35&#176 </p>
+             <p>Humidity: <span id="humidity"></span>68%</p>
+             <p>Wind Speed: <span id="wind speed"></span>4 mph </p>
+      </section>
+</div>
+
+
 	<article>
-		<p>One day I will be content.</p>
+      <ul id= "forecast" class= "hide" >
+          <li> <img src= images/SunnyIcon.png>Mon. 56&#176</li>
+          <li> <img src= images/PartlyCloudyIcon.png>Tue. 45&#176</li>
+          <li> <img src= images/PartlyCloudyIcon.png>Wed. 42&#176</li>
+          <li> <img src= images/RainyIcon.png>Thur. 38&#176</li>
+          <li> <img src= images/SnowyIcon.png>Fri. 31&#176</li>
+      </ul>
   </article>
+  
   <article>
-      <p>One day I will be content.</p>
-    </article>
-    <article>
-        <p>One day I will be content.</p>
-      </article>
-    <article>
-          <p>One day I will be content.</p>
-    </article>
+    <div class="article">
+    <h1>The Town of Preston: A Hidden Gem</h1>
+    <p>By: Katie Perry</p>
+    <img src= images/bonfire.jpg>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+        ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.</p>
+      </div>
+  </article>
+  
+ 
 </main>
 
 <footer>
