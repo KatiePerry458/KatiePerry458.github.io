@@ -3,7 +3,7 @@ header img{
 
 }
 
-header .banner{
+header #announcement{
 	background-color:#ffcc00;
 }
 header h1 {
@@ -35,12 +35,14 @@ header {
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+	width: 100%;
 }
 
 footer{
 	background-color: #2a9daf;
 	padding: 25px;
 	text-align: center;
+	width: 100%;
 }
 
 header,
@@ -90,7 +92,7 @@ nav a:hover {
 	color: #36454f;
 }
 
-nav a .active {
+nav a:active {
 	background-color: #e76f51;
 	color: #36454f;
 }
@@ -99,9 +101,6 @@ nav a .active {
 	margin: 10px auto;
 	position: relative;
 }
-
-
-
 
 .info {
 	position: absolute;
@@ -164,6 +163,10 @@ footer .resources{
 
 .responsive li {
 	display: block;
+}
+
+.banner{
+	display:none;
 }
 
 
