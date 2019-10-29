@@ -46,23 +46,26 @@
     <h1>Preston Idaho</h1>
     <div class="weatherSummary">
 
-      <img srcset="images/cit230_image_franklinOriginal320.jpg 320w,
-                   images/cit230_image_franklinOriginal480.jpg 480w,
-                   images/cit230_image_franklinOriginal800.jpg 800w"
-
-     sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-                               800px"
-     src="images/cit230_image_franklinOriginal800.jpg" alt="Optimized Preston Pic">
-
+      <picture>
+        <source srcset="images/cit230_image_franklinOriginal480.jpg" media="(min-width: 500px) and (max-width: 39.9rem)" sizes="100vw">
+                  
+          <source srcset ="images/cit230_image_franklinOriginal800.jpg" media="(min-width: 40rem)" >
+                  
+            <img src ="images/cit230_image_franklinOriginal320.jpg" alt="Optimized Preston Pic">
+      </picture>
 
 
       <section class="info">
         <p>WEATHER SUMMARY</p>
-        <p>Currently: <span id="currently">Sunny</span</p> <p>High: <span id="high">42&#176</span></p>
+        <p>Currently: <span id="currently">Sunny</span</p> 
+        <p>High: <span id="high">42&#176</span></p>
         <p>Low: <span id="low"></span>35&#176 </p>
         <p>Humidity: <span id="humidity"></span>68%</p>
         <p>Wind Speed: <span id="wind speed"></span>4 mph </p>
+        <p>Wind Chill: 
+            <script> document.getElementById("windchill").innerHTML; </script>
+            <windchill class="js"></windchill> </p>
+            
       </section>
     </div>
 
@@ -122,6 +125,20 @@
   </footer>
 
   <script src="js/javascript.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+ 
+ <script>
+  WebFont.load({
+    google: {
+      families: [
+        "Montserrat",
+        "Fjalla One"
+      ]
+    }
+  });
+  </script>
 
 </body>
 
