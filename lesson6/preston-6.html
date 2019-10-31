@@ -58,13 +58,11 @@
       <section class="info">
         <p>WEATHER SUMMARY</p>
         <p>Currently: <span id="currently">Sunny</span</p> 
-        <p>High: <span id="high">42</span> &#176 F</p>
+        <p>High: <span id="high">42</span>&#176 F</p>
         <p>Low: <span id="low">35</span>&#176 F</p>
         <p>Humidity: <span id="humidity">68</span>%</p>
-        <p>Wind Speed: <span id="wind spee">4</span>mph </p>
-        <p>Wind Chill: 
-            <script src="js/windchill.js" id="chillcalc"> document.getElementById("chillcalc").innerHTML </script>
-           </p>
+        <p>Wind Speed: <span id="speed">4</span>mph </p>
+        <p>Wind Chill: <span id="chillcalc"></span>&#176 F </p>           
             
             
       </section>
@@ -130,6 +128,9 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
  
+  <script src="js/windchill.js" > </script>
+
+
  <script>
   WebFont.load({
     google: {
