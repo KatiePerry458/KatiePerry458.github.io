@@ -11,21 +11,57 @@
 
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
-  <link href="css/large.css" rel="stylesheet">
-  <link href="css/medium.css" rel="stylesheet">
-  <link href="css/small.css" rel="stylesheet">
+  <link href="css/lazyloading.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-<h1>
-  
-</h1>
+
+  <h1>Lazy Loading Images</h1>
+
+  <article class="grid">
+
+  <picture>
+    <source srcset="lazyloadpics/Pic1.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic1.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  <picture>
+    <source srcset="lazyloadpics/Pic2.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic2.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  <picture>
+    <source srcset="lazyloadpics/Pic3.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic3.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  <picture>
+    <source srcset="lazyloadpics/Pic4.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic4.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  <picture>
+    <source srcset="lazyloadpics/Pic5.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic5.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  <picture>
+    <source srcset="lazyloadpics/Pic6.jpg" media="(min-width: 300px) and (max-width: 39.9rem)" sizes="100vw">
+    <img src="lazyloadpics/Pic6.jpg" alt="Lazy Load Photo">
+  </picture>
+
+  </article>
+
+
+
 
 </body>
 
 
+
+<script src="js/lazyloading.js"></script>
 
 
 </html>

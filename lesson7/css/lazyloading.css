@@ -1,0 +1,41 @@
+*{
+  margin: auto;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 1rem;
+text-align: center;
+}
+
+article img[data-src] {
+  filter: blur(0.2em);
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+
+@media only screen and (max-width: 60rem ){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+  }
+}	
+
+@media only screen and (max-width: 35rem ){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+  }
+}	
