@@ -25,5 +25,11 @@ p{
   margin-top: 25px;
 }
 
+article img[img-src] {
+  filter: blur(0.2em);
+}
 
-
+article img[data-src]{
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
