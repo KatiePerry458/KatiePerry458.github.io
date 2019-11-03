@@ -4,38 +4,26 @@
 
 h1{
 font-family: 'Montserrat', sans-serif;
-font-size: 1rem;
-text-align: center;
+font-size: 1.5rem;
+margin-left: 25px;
 }
 
-article img[data-src] {
-  filter: blur(0.2em);
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-left: 25px;
 }
 
-article img {
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
 
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 300px);
   grid-gap: 25px;
+  overflow: auto;
+  resize: horizontal;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 
-@media only screen and (max-width: 60rem ){
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
-  }
-}	
 
-@media only screen and (max-width: 35rem ){
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 25px;
-  }
-}	
