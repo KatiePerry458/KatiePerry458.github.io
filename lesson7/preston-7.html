@@ -33,85 +33,67 @@
   <nav>
     <button onclick="toggleMenu();"> &#9776; </button>
     <ul id="navigation" class="hide">
-      <li><a href="preston-6.html" class="active">Home</a></li>
+      <li><a href="preston-6.html">Home</a></li>
       <li><a href="#">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a href="#">Storm Center</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="preston-7.html" class="active">Gallery</a></li>
     </ul>
   </nav>
 
   <main>
-    <h1>Preston Idaho</h1>
-    <div class="weatherSummary">
+    <h1>Gallery</h1>
 
-      <picture>
-        <source srcset="images/cit230_image_franklinOriginal480.jpg" media="(min-width: 500px) and (max-width: 39.9rem)" sizes="100vw">
-                  
-          <source srcset ="images/cit230_image_franklinOriginal800.jpg" media="(min-width: 40rem)" >
-                  
-            <img src ="images/cit230_image_franklinOriginal320.jpg" alt="Optimized Preston Pic">
-      </picture>
+      <article class="gallerypics">
+        
+        <figure>
+            <img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic1.jpg"
+            alt="Lazy Load Photo">
+            <figcaption>Scenic Preston Idaho</figcaption>
+        </figure>
 
+        <picture>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic2.jpg"
+            alt="Lazy Load Photo">
+        </picture>
 
-      <section class="info">
-        <p>WEATHER SUMMARY</p>
-        <p>Currently: <span id="currently">Sunny</span</p> 
-        <p>High: <span id="high">42</span>&#176 F</p>
-        <p>Low: <span id="low">35</span>&#176 F</p>
-        <p>Humidity: <span id="humidity">68</span>%</p>
-        <p>Wind Speed: <span id="speed">4</span>mph </p>
-        <p>Wind Chill: <span id="chillcalc"></span>&#176 F </p>           
-            
-            
-      </section>
-    </div>
+        <picture>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic3.jpg"
+            alt="Lazy Load Photo">
+        </picture>
 
+        <picture>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic4.jpg"
+            alt="Lazy Load Photo">
+        </picture>
 
-    <article id="forecast" class="hide">
-      <ul>
-        <li> <img src=images/SunnyIcon.png> <br>Mon. 56&#176</li>
-        <li> <img src=images/PartlyCloudyIcon.png> <br>Tue. 45&#176</li>
-        <li> <img src=images/PartlyCloudyIcon.png> <br>Wed. 42&#176</li>
-        <li> <img src=images/RainyIcon.png> <br>Thur. 38&#176</li>
-        <li> <img src=images/SnowyIcon.png> <br>Fri. 31&#176</li>
-      </ul>
-    </article>
+        <picture>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic5.jpg"
+            alt="Lazy Load Photo" id=>
+        </picture>
 
-    <article style="margin-bottom: 120px">
-      <div class="textbox">
-        <h1>The Town of Preston: A Hidden Gem</h1>
-        <p>By: Katie Perry</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum.</p>
-        <img src="images/bonfire.jpg" class="floatPic">
+        <picture>
+          <img img src="lazyloadpics/placeholder.jpg" class="loadpics" data-src="lazyloadpics/Pic6.jpg"
+            alt="Lazy Load Photo">
+        </picture>
+      </article>
+
+    <footer>
+
+      <img src="images/Google Maps.jpg" style="width: 400px" class="hide">
+      <br>
+      <div class="resources">
+        <p>Contact Information - Phone: 801-123-4567 | Email: contact@townofpreston.com</p>
+        <a href="preston-5.html" class="active">Home</a> |
+        <a href="#">Preston</a>|
+        <a href="#">Soda Springs</a>|
+        <a href="#">Fish Haven</a>|
+        <a href="#">Storm Center</a>|
+        <a href="#">Gallery</a>
       </div>
-    </article>
-    <br><br><br><br>
-  </main>
 
-
-  <footer>
-
-    <img src="images/Google Maps.jpg" style="width: 400px" class="hide">
-
-    <div class="resources">
-      <p>Contact Information - Phone: 801-123-4567 | Email: contact@townofpreston.com</p>
-      <a href="preston-5.html" class="active">Home</a> |
-      <a href="#">Preston</a>|
-      <a href="#">Soda Springs</a>|
-      <a href="#">Fish Haven</a>|
-      <a href="#">Storm Center</a>|
-      <a href="#">Gallery</a>
-    </div>
-
-    <article> &copy; 2019 &nbsp; Katie Perry &nbsp; | <a href="#">Terms of Use</a>&nbsp;
+      &copy; 2019 &nbsp; Katie Perry &nbsp; | <a href="#">Terms of Use</a>&nbsp;
 
       <p id="dateStamp"></p>
 
@@ -120,27 +102,23 @@
         document.getElementById("dateStamp").innerHTML = d;
       </script>
 
-    </article>
-  </footer>
 
-  <script src="js/javascript.js"></script>
+    </footer>
 
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lazyloading.js" defer></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
- 
-  <script src="js/windchill.js" > </script>
-
-
- <script>
-  WebFont.load({
-    google: {
-      families: [
-        "Montserrat",
-        "Fjalla One"
-      ]
-    }
-  });
-  </script>
+    <script>
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat",
+            "Fjalla One"
+          ]
+        }
+      });
+    </script>
 
 </body>
 

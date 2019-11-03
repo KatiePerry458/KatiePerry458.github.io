@@ -179,7 +179,14 @@ header img{
 	display:none;
 	}
 	
-	
+	main article .gallerypics{
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 300px);
+		grid-gap: 25px;
+		overflow: auto;
+		resize: horizontal;
+	}
+
 	@media only screen and (max-width: 40rem){
 	
 	
