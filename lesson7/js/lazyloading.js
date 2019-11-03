@@ -1,4 +1,4 @@
-/* Lazy Loading 
+/* Lazy Loading */
 const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
@@ -14,7 +14,7 @@ const imgOptions = {
 };
 
 const imgObserver = new IntersectionObserver(
-  (entires, imgObserver) => {
+  (entries, imgObserver) => {
     entries.forEach(entry => {
     if(!entry.isIntersecting){
       return;
