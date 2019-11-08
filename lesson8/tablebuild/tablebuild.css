@@ -1,5 +1,6 @@
 html{
 font-family: Ubuntu, sans-serif;
+width: 350px;
 }
 
 
@@ -31,17 +32,17 @@ td {
   background-color: #e7f0ed;
 }
 
-tr:nth-child(odd) td {
+tr:nth-child(even) td {
   background-color: rgb(220, 220, 220);
 }
 
-.highlighted{
+.highlighted {
 background-color:#628ca6;
 color: white;
 }
 
-tfoot{
-  background-color:#628ca6;
+tfoot tr td {
+  background-color:#7fb9c2;
   font-size:0.75rem;
 }
 
