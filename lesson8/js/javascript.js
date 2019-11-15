@@ -21,3 +21,7 @@ function toggleMenu(){
   document.getElementById("navigation").classList.toggle("hide");
 }
 
+/*Storm rating*/
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
