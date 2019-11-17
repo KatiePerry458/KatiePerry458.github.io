@@ -21,7 +21,6 @@ fetch(requestURL)
       h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
       birthDate.textContent = "Date of Birth:" + ' ' + prophets[i].birthDate
       birthPlace.textContent = "Place of Birth" + ' ' + prophets[i].birthPlace;
-      let image = document.createElement('image');
       image.setAttribute('src', prophets[i].imageurl);
       image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname) + ' ' + prophets[i].order;
 
