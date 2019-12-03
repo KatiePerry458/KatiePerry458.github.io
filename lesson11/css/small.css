@@ -201,8 +201,8 @@ header img{
 	}	
 
 	.towns {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, 300px);
+		display:grid;
+		grid-template-columns: repeat(auto-fill, 30%);
 		grid-gap: 25px;
 		overflow: auto;
 		resize: horizontal;
@@ -210,15 +210,15 @@ header img{
 		margin-top: 25px;
 		background-color: grey;
 		max-width: 100vw;
-		box-shadow: 10px 10px 10px black;
+
 	}
 
 	section {
 		text-align: center;
 		background-color: powderblue;
 		padding: 25px;
-		margin-left: 25px;
+		margin-left: 60px;
 		margin-top: 25px;
-		margin-right: 25px;
 		margin-bottom: 25px;
+
 	}
