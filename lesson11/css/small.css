@@ -1,9 +1,3 @@
-
-
-* {
-	margin: auto;
-}
-
 header img{
 	height:3rem;
 	
@@ -12,7 +6,6 @@ header img{
 	header #announcement{
 	background-color:#ffcc00;
 	}
-	
 	header h1 {
 	font-family: 'Fjalla One', sans-serif;
 	color: #ffffff;
@@ -102,8 +95,8 @@ header img{
 	nav .active {
 	background-color: #e76f51;
 	color: #36454f;
-	padding: 10px;
 	}
+
 	
 	.weatherSummary {
 	margin: 10px auto;
@@ -133,7 +126,6 @@ header img{
 	.textbox{
 	padding: 20px;
 	}
-
 	article h1{
 	text-align: left;
 	}
@@ -149,7 +141,6 @@ header img{
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 	}
-
 	main article {
 	margin: 0.5rem;
 	border: 3px solid #E9c46A;
@@ -179,16 +170,7 @@ header img{
 	display:none;
 	}
 	
-	 .gallerypics{
-		display: grid;
-		grid-template-columns: repeat(auto-fill, 300px);
-		grid-gap: 25px;
-		overflow: auto;
-		resize: horizontal;
-justify-content: center;
-padding-top: 15px;
-padding-bottom: 15px;	}
-
+	
 	@media only screen and (max-width: 40rem){
 	
 	
@@ -203,8 +185,9 @@ padding-bottom: 15px;	}
 	.floatPic{
 	width: 400px;
 	position: relative;
+	left: 10px;
 	box-shadow: 0 0 10px #111;
-	margin: 30px;	
+	
 	}
 	
 	 footer .hide{
@@ -214,4 +197,28 @@ padding-bottom: 15px;	}
 	header h2.hide{
 	display: none;
 	}
+	
 	}	
+
+	.towns {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 300px);
+		grid-gap: 25px;
+		overflow: auto;
+		resize: horizontal;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		background-color: grey;
+		max-width: 100vw;
+		box-shadow: 10px 10px 10px black;
+	}
+
+	section {
+		text-align: center;
+		background-color: powderblue;
+		padding: 25px;
+		margin-left: 25px;
+		margin-top: 25px;
+		margin-right: 25px;
+		margin-bottom: 25px;
+	}
