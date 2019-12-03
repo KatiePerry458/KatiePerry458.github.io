@@ -34,7 +34,7 @@ fetch(requestURL)
           events.appendChild(event);
         }
 
-        photo.setAttribute('src', towns[i].imageurl);
+        photo.setAttribute('src', "images/" + towns[i].photo);
         photo.setAttribute('alt', towns[i].name);
 
         card.appendChild(name);
