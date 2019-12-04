@@ -169,6 +169,31 @@ header img{
 	.banner{
 	display:none;
 	}
+
+
+	.towns {
+		display:grid;
+		grid-template-columns: repeat(3, 30%);
+		grid-gap: 25px;
+		overflow: auto;
+		resize: horizontal;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		background-color: grey;
+		max-width: 100vw;
+
+	}
+
+	section {
+		text-align: center;
+		background-color: powderblue;
+		padding: 25px;
+		margin-left: 60px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+
+	}
+
 	
 	
 	@media only screen and (max-width: 40rem){
@@ -197,28 +222,11 @@ header img{
 	header h2.hide{
 	display: none;
 	}
-	
-	}	
 
-	.towns {
-		display:grid;
-		grid-template-columns: repeat(auto-fill, 30%);
-		grid-gap: 25px;
-		overflow: auto;
-		resize: horizontal;
-		margin-bottom: 25px;
-		margin-top: 25px;
-		background-color: grey;
-		max-width: 100vw;
 
+	.towns{
+		grid-template-columns: 1fr;
 	}
+}
 
-	section {
-		text-align: center;
-		background-color: powderblue;
-		padding: 25px;
-		margin-left: 60px;
-		margin-top: 25px;
-		margin-bottom: 25px;
-
-	}
+}
