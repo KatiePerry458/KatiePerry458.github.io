@@ -1,48 +1,24 @@
 {
-    "temples": [{
+  "templeClosures": [{
         "name": "Columbia River Temple",
-        "address": "969 Gage Blvd
-        Richland WA 99352-7777
-        United States",
-        "telephone": "1509-628-0990",
-        "email": "contact@columbiarivertemple.org",
-        "services": "<li>No clothing rental available
-        <li>No cafeteria available
-        <li>No patron housing available
-        <li>Distribution center nearby",
-        "history": "2 April 2000
-        Announced
-        28 October 2000
-        Groundbreaking
-        18 November 2001
-        Dedicated ",
-        "schedule": "6:00 AM
-        Walk-ins and Appointments
-        8:00 AM
-        Walk-ins and Appointments
-        8:30 AM
-        Walk-ins and Appointments
-        10:00 AM
-        Walk-ins and Appointments
-        10:30 AM
-        Walk-ins and Appointments
-        12:00 PM
-        Walk-ins and Appointments
-        12:30 PM
-        Walk-ins and Appointments
-        2:00 PM
-        Walk-ins and Appointments
-        4:00 PM
-        Walk-ins and Appointments
-        4:30 PM
-        Walk-ins and Appointments
-        6:30 PM
-        Walk-ins and Appointments
-        7:00 PM
-        Walk-ins and Appointments",
-        "summary": 11,
-        "imageurl": "images/columbia-river-temple-lds.jpg"
+        "schedule": "2019
+        Tuesday, 24 December 2019 - Wednesday, 25 December 2019
+        Tuesday, 31 December 2019 - Wednesday, 1 January 2020
+        2020
+        Monday, 2 March 2020 - Monday, 16 March 2020
+        Saturday, 4 April 2020
+        Saturday, 4 July 2020
+        Monday, 7 September 2020 - Monday, 19 October 2020
+        Wednesday, 25 November 2020 - Thursday, 26 November 2020
+        Thursday, 24 December 2020 - Friday, 25 December 2020
+        Thursday, 31 December 2020 - Friday, 1 January 2021",
       },
+        {"name":"Salt Lake City Temple",
+        "schedule": "Closed",
+      },
+
+      
+
       
     ]
   }

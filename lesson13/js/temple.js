@@ -7,13 +7,10 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); 
-    const temples = jsonObject['temples'];
+    const templeClosures = jsonObject['templeClosures'];
     for (let i = 0; i < prophets.length; i++) {
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let image = document.createElement('img');
-      let birthDate = document.createElement('p');
-      let birthPlace = document.createElement('p');
+      let templeClosures = document.createElement('p');
 
       h2.textContent = temples[i].name;
       address.textContent = "Address:" + ' ' + temples[i].address;

@@ -418,6 +418,22 @@ main article {
 main article {
   padding: 10px; }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 25px;
+  overflow: auto;
+  resize: horizontal;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  background-color: white;
+  max-width: 100vw;
+  align-content: center; }
+
+main section {
+  padding: 25px; }
+
 @media only screen and (max-width: 40rem) {
   nav ul.hide {
     display: none; }
